@@ -7,7 +7,7 @@ docker-compose build
 
 ## サーバ起動
 ```bash
-docker-compose run --rm --service-ports share
+docker-compose up -d
 ```
 もしくは
 ```bash
