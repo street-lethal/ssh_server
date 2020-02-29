@@ -2,7 +2,9 @@ version: '3.2'
 
 services:
   share:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.pubkey
     ports:
       - '10022:22'
     volumes:
