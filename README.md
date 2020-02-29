@@ -25,7 +25,7 @@ ssh guest@xxx.xxx.xxx.xxx -p 10022
 
 ### 鍵の用意
 
-公開鍵(id_rsa.pub)/秘密鍵(id_rsa)のペアを用意し、公開鍵(id_rsa.pub)を `keys` ディレクトリ下に配置する  
+公開鍵(`id_rsa.pub`)/秘密鍵(`id_rsa`)のペアを用意し、公開鍵(`id_rsa.pub`)を `keys` ディレクトリ下に配置する  
 (新たに生成するには `ssh-keygen`)
 
 ### 準備
