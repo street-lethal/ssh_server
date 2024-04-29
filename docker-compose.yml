@@ -7,4 +7,4 @@ services:
       - '10022:22'
     volumes:
       - ./shared:/home/guest/shared
-    command: /bin/sh -c "/etc/init.d/ssh start && tail -f /var/log/alternatives.log"
+    command: /bin/sh -c "/etc/init.d/ssh start && tail -f /var/log/lastlog"
